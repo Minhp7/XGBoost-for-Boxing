@@ -1,16 +1,13 @@
-# AssignmentSkeleton
+# Boxing Project (Importance of KO%)
 
-An example layout students can use when submitting assingments for the Sports Analytics
-course at Concordia University.
+This project aims to show how KO% is linked with a boxer's sucess.
 
-If forking/cloning this repository, remember to set it to “private”.
-Then when submitting your assignment/project, share it with me ([jwsmith@wyattai.com](mailto:jwsmith@wyattai.com)).
+## Dataset 
+The data I use project is taken from this person's project https://github.com/kaustav1987/EDA-Boxing-Dataset.git. The link was git cloned and the file was able to be saved to my laptop as .csv.
 
-## Assignment/Project Number ?
+## Classification Algorithm
+I use XGboost to predict the victor and the method of victory.
 
-## Brief description of Assignment/Project
-
-## Group Members
 
 ## Setup
 
@@ -29,4 +26,8 @@ From your virtual environment:
 pip install -r requirements.txt
 ```
 
-## Extra Comments
+Get the data:
+```shell
+git clone https://github.com/kaustav1987/EDA-Boxing-Dataset.git
+```
+
